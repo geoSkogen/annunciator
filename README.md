@@ -1,2 +1,4 @@
 # annunciator
-translates numeric input into English
+
+### tackles a classic 'learn-to-program' exercise:
+#### translating numeric values into English
