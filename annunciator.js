@@ -24,7 +24,7 @@ function initFuncs() {
     var stringIn = ins[0].value;
     var trueValue = Number(stringIn);
 //places only numeric input into an array
-    for (i = 0; i < stringIn.length; i++) {
+    for (var i = 0; i < stringIn.length; i++) {
       if(!isNaN(stringIn.charAt(i))) {
       splitString[splitCount] = Number(stringIn.charAt(i));
       splitCount++;
